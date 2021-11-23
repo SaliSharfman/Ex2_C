@@ -46,10 +46,10 @@ int isExistsPath(int matrix[10][10]){
     int path=shortestPath2V(matrix,v1,v2);
     if (path==-1)
     {
-        printf("False \n");
+        printf("False\n");
         return 0;
     }
-    printf("True \n");
+    printf("True\n");
         return 1;
     
 }
